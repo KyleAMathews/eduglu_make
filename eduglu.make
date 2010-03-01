@@ -21,6 +21,7 @@ projects[feeds][subdir] = "contrib"
 projects[filefield][subdir] = "contrib"
 projects[imageapi][subdir] = "contrib"
 projects[imagecache][subdir] = "contrib"
+projects[imagefield][subdir] = "contrib"
 projects[install_profile_api][subdir] = "contrib"
 projects[jquery_update][subdir] = "contrib"
 projects[link][subdir] = "contrib"
@@ -58,6 +59,8 @@ projects[eduglue_features][download][type] = "git"
 projects[eduglue_features][download][url] = "git://github.com/KyleAMathews/eduglue_features.git"
 
 ; Themes
+projects[ninesixty][subdir] = "themes"
+
 projects[dewey][type] = "theme"
 projects[dewey][download][type] = "git"
 projects[dewey][download][url] = "git://github.com/KyleAMathews/dewey.git"
@@ -73,4 +76,4 @@ projects[tao][download][url] = "git://github.com/developmentseed/tao.git"
 ; Eduglue install profile
 projects[eduglue][type] = "profile"
 projects[eduglue][download][type] = "git"
-projects[eduglue][download][url] = "git://github.com/KyleAMathews/Eduglue-install-profile.git"
+projects[eduglue][download][url] = "git://github.com/KyleAMathews/eduglu_profile.git"
