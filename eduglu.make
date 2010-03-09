@@ -37,6 +37,7 @@ projects[realname][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
 projects[search404][subdir] = "contrib"
 projects[spaces][subdir] = "contrib"
+projects[strongarm][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 
@@ -59,7 +60,7 @@ projects[eduglue_features][download][type] = "git"
 projects[eduglue_features][download][url] = "git://github.com/KyleAMathews/eduglue_features.git"
 
 ; Themes
-projects[ninesixty][subdir] = "themes"
+projects[ninesixty]
 
 projects[dewey][type] = "theme"
 projects[dewey][download][type] = "git"
