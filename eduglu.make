@@ -60,7 +60,7 @@ projects[eduglue_features][download][type] = "git"
 projects[eduglue_features][download][url] = "git://github.com/KyleAMathews/eduglue_features.git"
 
 ; Themes
-projects[ninesixty]
+projects[] = ninesixty
 
 projects[dewey][type] = "theme"
 projects[dewey][download][type] = "git"
@@ -75,6 +75,6 @@ projects[tao][download][type] = "git"
 projects[tao][download][url] = "git://github.com/developmentseed/tao.git"
 
 ; Eduglue install profile
-projects[eduglue][type] = "profile"
-projects[eduglue][download][type] = "git"
-projects[eduglue][download][url] = "git://github.com/KyleAMathews/eduglu_profile.git"
+projects[eduglu_profile][type] = "profile"
+projects[eduglu_profile][download][type] = "git"
+projects[eduglu_profile][download][url] = "git://github.com/KyleAMathews/eduglu_profile.git"
