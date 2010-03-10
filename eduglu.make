@@ -52,12 +52,12 @@ projects[og_mailinglist][subdir] = "contrib"
 ; Custom modules
 projects[custom][type] = "module"
 projects[custom][download][type] = "git"
-projects[custom][download][url] = "git://github.com/KyleAMathews/eduglue_modules.git"
+projects[custom][download][url] = "git://github.com/KyleAMathews/eduglu_modules.git"
 
 ; Features
-projects[eduglue_features][type] = "module"
-projects[eduglue_features][download][type] = "git"
-projects[eduglue_features][download][url] = "git://github.com/KyleAMathews/eduglue_features.git"
+projects[eduglu_features][type] = "module"
+projects[eduglu_features][download][type] = "git"
+projects[eduglu_features][download][url] = "git://github.com/KyleAMathews/eduglu_features.git"
 
 ; Themes
 projects[] = ninesixty
@@ -74,7 +74,7 @@ projects[tao][type] = "theme"
 projects[tao][download][type] = "git"
 projects[tao][download][url] = "git://github.com/developmentseed/tao.git"
 
-; Eduglue install profile
+; Eduglu install profile
 projects[eduglu_profile][type] = "profile"
 projects[eduglu_profile][download][type] = "git"
 projects[eduglu_profile][download][url] = "git://github.com/KyleAMathews/eduglu_profile.git"
