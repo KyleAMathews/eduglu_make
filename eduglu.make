@@ -3,18 +3,24 @@ core = 6.x
 projects[] = "drupal"
 
 ; Contrib projects
-projects[admin_menu][subdir] = "contrib"
+projects[admin][subdir] = "contrib"
 projects[advanced_help][subdir] = "contrib"
 projects[apachesolr][subdir] = "contrib"
 projects[backup_migrate][subdir] = "contrib"
+projects[better_formats][subdir] = "contrib"
 projects[cacherouter][subdir] = "contrib"
 projects[cck][subdir] = "contrib"
+projects[codefilter][subdir] = "contrib"
 projects[comment_upload][subdir] = "contrib"
 projects[content_profile][subdir] = "contrib"
 projects[content_taxonomy][subdir] = "contrib"
-projects[context][subdir] = "contrib"
+
+projects[spaces][subdir] = "contrib"
+projects[spaces][version] = "3.0-beta4"
+
 projects[ctools][subdir] = "contrib"
 projects[diff][subdir] = "contrib"
+projects[ed_readmore][subdir] = "contrib"
 projects[fasttoggle][subdir] = "contrib"
 projects[features][subdir] = "contrib"
 projects[feeds][subdir] = "contrib"
@@ -23,7 +29,6 @@ projects[imageapi][subdir] = "contrib"
 projects[imagecache][subdir] = "contrib"
 projects[imagecache_profiles][subdir] = "contrib"
 projects[imagefield][subdir] = "contrib"
-projects[install_profile_api][subdir] = "contrib"
 projects[jquery_update][subdir] = "contrib"
 projects[link][subdir] = "contrib"
 projects[mailalias][subdir] = "contrib"
@@ -37,9 +42,13 @@ projects[r4032login][subdir] = "contrib"
 projects[realname][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
 projects[search404][subdir] = "contrib"
+
 projects[spaces][subdir] = "contrib"
+projects[spaces][version] = "3.0-beta3"
+
 projects[strongarm][subdir] = "contrib"
 projects[token][subdir] = "contrib"
+projects[vertical_tabs][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 
 ; og_mailinglist -- while it's still on github
