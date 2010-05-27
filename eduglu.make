@@ -3,7 +3,10 @@ core = 6.x
 projects[] = "drupal"
 
 ; Contrib projects
+
 projects[admin][subdir] = "contrib"
+projects[admin][version] = "2.0-beta2"
+
 projects[advanced_help][subdir] = "contrib"
 projects[apachesolr][subdir] = "contrib"
 projects[backup_migrate][subdir] = "contrib"
@@ -15,8 +18,8 @@ projects[comment_upload][subdir] = "contrib"
 projects[content_profile][subdir] = "contrib"
 projects[content_taxonomy][subdir] = "contrib"
 
-projects[spaces][subdir] = "contrib"
-projects[spaces][version] = "3.0-beta4"
+projects[context][subdir] = "contrib"
+projects[context][version] = "3.0-beta4"
 
 projects[ctools][subdir] = "contrib"
 projects[diff][subdir] = "contrib"
@@ -25,11 +28,17 @@ projects[fasttoggle][subdir] = "contrib"
 projects[features][subdir] = "contrib"
 projects[feeds][subdir] = "contrib"
 projects[filefield][subdir] = "contrib"
+projects[flot][subdir] = "contrib"
 projects[imageapi][subdir] = "contrib"
 projects[imagecache][subdir] = "contrib"
 projects[imagecache_profiles][subdir] = "contrib"
 projects[imagefield][subdir] = "contrib"
 projects[jquery_update][subdir] = "contrib"
+
+projects[jquery_ui][subdir] = "contrib"
+projects[jquery_ui][version] = "1"
+
+projects[libraries][subdir] = "contrib"
 projects[link][subdir] = "contrib"
 projects[mailalias][subdir] = "contrib"
 projects[markdown][subdir] = "contrib"
@@ -37,7 +46,6 @@ projects[masquerade][subdir] = "contrib"
 projects[modr8][subdir] = "contrib"
 projects[og][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
-projects[purl][subdir] = "contrib"
 projects[r4032login][subdir] = "contrib"
 projects[realname][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
@@ -51,13 +59,18 @@ projects[token][subdir] = "contrib"
 projects[vertical_tabs][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 
-; og_mailinglist -- while it's still on github
+; Patched
+projects[purl][subdir] = "contrib"
+projects[purl][type] = "module"
+projects[purl][version] = "1.0-beta12"
+projects[purl][patch][] = "http://drupal.org/files/issues/608916_20100423_2.patch"
+; Original issue: http://drupal.org/node/608916
+
+; og_mailinglist -- while it's still on github and rapidly changing.
 projects[og_mailinglist][type] = "module"
 projects[og_mailinglist][download][type] = "git"
 projects[og_mailinglist][download][url] = "git://github.com/KyleAMathews/og_mailinglist.git"
 projects[og_mailinglist][subdir] = "contrib"
-
-; Test, find bugs, fix bugs, repeat. Move to Aegir and install.
 
 ; Custom modules
 projects[custom][type] = "module"
@@ -88,3 +101,13 @@ projects[tao][download][url] = "git://github.com/developmentseed/tao.git"
 projects[eduglu_profile][type] = "profile"
 projects[eduglu_profile][download][type] = "git"
 projects[eduglu_profile][download][url] = "git://github.com/KyleAMathews/eduglu_profile.git"
+
+; Libraries
+libraries[flot][download][type] = "get"
+libraries[flot][download][url] = "http://flot.googlecode.com/files/flot-0.6.tar.gz"
+libraries[flot][directory_name] = "flot"
+
+libraries[jquery_ui][download][type] = "get"
+libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
+libraries[jquery_ui][directory_name] = "jquery.ui"
+libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
