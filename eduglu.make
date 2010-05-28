@@ -1,6 +1,7 @@
 ; Core
 core = 6.x
 projects[] = "drupal"
+;TODO default features for new groups and when there's no content, complain loud and clear "Hey Make something here!"
 
 ; Contrib projects
 
@@ -46,6 +47,7 @@ projects[masquerade][subdir] = "contrib"
 projects[modr8][subdir] = "contrib"
 projects[og][subdir] = "contrib"
 projects[pathauto][subdir] = "contrib"
+projects[querypath][subdir] = "contrib"
 projects[r4032login][subdir] = "contrib"
 projects[realname][subdir] = "contrib"
 projects[rules][subdir] = "contrib"
