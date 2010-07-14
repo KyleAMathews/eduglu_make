@@ -6,8 +6,6 @@ projects[] = "drupal"
 ; Contrib projects
 
 projects[admin][subdir] = "contrib"
-projects[admin][version] = "2.0-beta2"
-
 projects[advanced_help][subdir] = "contrib"
 projects[apachesolr][subdir] = "contrib"
 projects[backup_migrate][subdir] = "contrib"
