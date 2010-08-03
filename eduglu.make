@@ -21,6 +21,7 @@ projects[context][subdir] = "contrib"
 projects[context][version] = "3.0-beta5"
 
 projects[ctools][subdir] = "contrib"
+projects[date][subdir] = "contrib"
 projects[diff][subdir] = "contrib"
 projects[ed_readmore][subdir] = "contrib"
 projects[fasttoggle][subdir] = "contrib"
@@ -82,9 +83,9 @@ projects[eduglu_features][type] = "module"
 projects[eduglu_features][download][type] = "git"
 projects[eduglu_features][download][url] = "git://github.com/KyleAMathews/eduglu_features.git"
 
-projects[eduglu_features][type] = "module"
-projects[eduglu_features][download][type] = "git"
-projects[eduglu_features][download][url] = "git://github.com/KyleAMathews/atrium_book.git"
+projects[atrium_book][type] = "module"
+projects[atrium_book][download][type] = "git"
+projects[atrium_book][download][url] = "git://github.com/KyleAMathews/atrium_book.git"
 
 ; Themes
 projects[] = ninesixty
