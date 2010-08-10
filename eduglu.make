@@ -18,7 +18,7 @@ projects[content_profile][subdir] = "contrib"
 projects[content_taxonomy][subdir] = "contrib"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta5"
+projects[context][version] = "3.0-beta8"
 
 projects[ctools][subdir] = "contrib"
 projects[date][subdir] = "contrib"
@@ -53,7 +53,7 @@ projects[rules][subdir] = "contrib"
 projects[search404][subdir] = "contrib"
 
 projects[spaces][subdir] = "contrib"
-projects[spaces][version] = "3.0-beta4"
+projects[spaces][version] = "3.0-beta5"
 
 projects[strongarm][subdir] = "contrib"
 projects[token][subdir] = "contrib"
