@@ -84,10 +84,10 @@ projects[outline_designer][version] = "1.1"
 projects[outline_designer][patch][] = "http://drupal.org/files/issues/outline_designer-869106.patch"
 ; Issue: http://drupal.org/node/869106#comment-3348512
 
-projects[outline_designer_og][download][type] = "get"
-projects[outline_designer_og][download][url] = "http://drupal.org/files/issues/outline_designer_og_1.zip"
-projects[outline_designer_og][directory_name] = "outline_designer_og"
-projects[outline_designer_og][destination] = "modules/contrib/outline_designer"
+libraries[outline_designer_og][download][type] = "get"
+libraries[outline_designer_og][download][url] = "http://drupal.org/files/issues/outline_designer_og_1.zip"
+libraries[outline_designer_og][directory_name] = "outline_designer_og"
+libraries[outline_designer_og][destination] = "modules/contrib/outline_designer"
 
 ; og_mailinglist -- while it's still on github and rapidly changing.
 projects[og_mailinglist][type] = "module"
@@ -130,6 +130,11 @@ projects[eduglu_profile][download][type] = "git"
 projects[eduglu_profile][download][url] = "git://github.com/KyleAMathews/eduglu_profile.git"
 
 ; Libraries
+libraries[jquery_ui][download][type] = "get"
+libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
+libraries[jquery_ui][directory_name] = "jquery.ui"
+libraries[jquery_ui][destination] = "modules/contrib/jquery_ui" 
+
 libraries[flot][download][type] = "get"
 libraries[flot][download][url] = "http://flot.googlecode.com/files/flot-0.6.tar.gz"
 libraries[flot][directory_name] = "flot"
