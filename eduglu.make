@@ -24,6 +24,7 @@ projects[context][version] = "3.0-beta8"
 
 projects[ctools][subdir] = "contrib"
 projects[date][subdir] = "contrib"
+projects[devel][subdir] = "contrib"
 projects[diff][subdir] = "contrib"
 projects[ed_readmore][subdir] = "contrib"
 projects[fasttoggle][subdir] = "contrib"
@@ -35,6 +36,13 @@ projects[imageapi][subdir] = "contrib"
 projects[imagecache][subdir] = "contrib"
 projects[imagecache_profiles][subdir] = "contrib"
 projects[imagefield][subdir] = "contrib"
+
+projects[itweak_upload][subdir] = "contrib"
+projects[itweak_upload][type] = "module"
+projects[itweak_upload][download][type] = "cvs"
+projects[itweak_upload][download][module] = "contributions/modules/itweak_upload"
+projects[itweak_upload][download][revision] = "DRUPAL-6--2-4" 
+
 projects[jquery_update][subdir] = "contrib"
 
 projects[jquery_ui][subdir] = "contrib"
@@ -76,6 +84,10 @@ projects[outline_designer][version] = "1.1"
 projects[outline_designer][patch][] = "http://drupal.org/files/issues/outline_designer-869106.patch"
 ; Issue: http://drupal.org/node/869106#comment-3348512
 
+projects[outline_designer_og][download][type] = "get"
+projects[outline_designer_og][download][url] = "http://drupal.org/files/issues/outline_designer_og_1.zip"
+projects[outline_designer_og][directory_name] = "outline_designer_og"
+projects[outline_designer_og][destination] = "modules/contrib/outline_designer"
 
 ; og_mailinglist -- while it's still on github and rapidly changing.
 projects[og_mailinglist][type] = "module"
@@ -121,11 +133,6 @@ projects[eduglu_profile][download][url] = "git://github.com/KyleAMathews/eduglu_
 libraries[flot][download][type] = "get"
 libraries[flot][download][url] = "http://flot.googlecode.com/files/flot-0.6.tar.gz"
 libraries[flot][directory_name] = "flot"
-
-libraries[jquery_ui][download][type] = "get"
-libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
-libraries[jquery_ui][directory_name] = "jquery.ui"
-libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
 ; Development
 projects[devel][subdir] = "development"
