@@ -68,7 +68,14 @@ projects[purl][subdir] = "contrib"
 projects[purl][type] = "module"
 projects[purl][version] = "1.0-beta12"
 projects[purl][patch][] = "http://drupal.org/files/issues/608916_20100423_2.patch"
-; Original issue: http://drupal.org/node/608916
+; Issue: http://drupal.org/node/608916
+
+projects[outline_designer][subdir] = "contrib"
+projects[outline_designer][type] = "module"
+projects[outline_designer][version] = "1.1"
+projects[outline_designer][patch][] = "http://drupal.org/files/issues/outline_designer-869106.patch"
+; Issue: http://drupal.org/node/869106#comment-3348512
+
 
 ; og_mailinglist -- while it's still on github and rapidly changing.
 projects[og_mailinglist][type] = "module"
