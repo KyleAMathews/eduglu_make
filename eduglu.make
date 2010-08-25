@@ -18,7 +18,7 @@ projects[content_profile][subdir] = "contrib"
 projects[content_taxonomy][subdir] = "contrib"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta8"
+projects[context][version] = "3.0"
 
 projects[ctools][subdir] = "contrib"
 projects[date][subdir] = "contrib"
@@ -34,12 +34,6 @@ projects[imageapi][subdir] = "contrib"
 projects[imagecache][subdir] = "contrib"
 projects[imagecache_profiles][subdir] = "contrib"
 projects[imagefield][subdir] = "contrib"
-
-projects[itweak_upload][subdir] = "contrib"
-projects[itweak_upload][type] = "module"
-projects[itweak_upload][download][type] = "cvs"
-projects[itweak_upload][download][module] = "contributions/modules/itweak_upload"
-projects[itweak_upload][download][revision] = "DRUPAL-6--2-4" 
 
 projects[jquery_update][subdir] = "contrib"
 
@@ -62,7 +56,7 @@ projects[rules][subdir] = "contrib"
 projects[search404][subdir] = "contrib"
 
 projects[spaces][subdir] = "contrib"
-projects[spaces][version] = "3.0-beta5"
+projects[spaces][version] = "3.0"
 
 projects[strongarm][subdir] = "contrib"
 projects[token][subdir] = "contrib"
@@ -72,7 +66,7 @@ projects[views][subdir] = "contrib"
 ; Patched
 projects[purl][subdir] = "contrib"
 projects[purl][type] = "module"
-projects[purl][version] = "1.0-beta12"
+projects[purl][version] = "1.0-beta13"
 projects[purl][patch][] = "http://drupal.org/files/issues/608916_20100423_2.patch"
 ; Issue: http://drupal.org/node/608916
 
