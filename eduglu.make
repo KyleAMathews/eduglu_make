@@ -20,7 +20,7 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.2"
 
 projects[better_formats][subdir] = "contrib"
-projects[better_formats][version] = "1.0-beta6"
+projects[better_formats][version] = "1.2"
 
 projects[cacherouter][subdir] = "contrib"
 projects[cacherouter][version] = "1.0-rc1"
@@ -43,11 +43,11 @@ projects[content_taxonomy][version] = "1.0-rc2"
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.0"
 
-projects[ctools][version] = "contrib"
-projects[ctools][subdir] = "1.7"
+projects[ctools][subdir] = "contrib"
+projects[ctools][version] = "1.7"
 
-projects[date][version] = "contrib"
-projects[date][subdir] = "2.6"
+projects[date][subdir] = "contrib"
+projects[date][version] = "2.6"
 
 projects[diff][version] = "contrib"
 projects[diff][version] = "2.1"
@@ -62,7 +62,7 @@ projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
 
 projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "1.0-alpha13"
+projects[feeds][version] = "1.0-beta7"
 
 projects[filefield][subdir] = "contrib"
 projects[filefield][version] = "3.7"
@@ -105,6 +105,9 @@ projects[modr8][version] = "1.3"
 
 projects[og][subdir] = "contrib"
 projects[og][version] = "2.1"
+
+projects[og_mailinglist][subdir] = "contrib"
+projects[og_mailinglist][version] = "1.0-beta2"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.4"
@@ -163,12 +166,6 @@ libraries[outline_designer_og][download][url] = "http://drupal.org/files/issues/
 libraries[outline_designer_og][directory_name] = "outline_designer_og"
 libraries[outline_designer_og][destination] = "modules/contrib/outline_designer"
 
-; og_mailinglist -- while it's still on github and rapidly changing.
-projects[og_mailinglist][type] = "module"
-projects[og_mailinglist][download][type] = "git"
-projects[og_mailinglist][download][url] = "git://github.com/KyleAMathews/og_mailinglist.git"
-projects[og_mailinglist][subdir] = "contrib"
-
 ; Custom modules
 projects[custom][type] = "module"
 projects[custom][download][type] = "git"
@@ -212,6 +209,10 @@ libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 libraries[flot][download][type] = "get"
 libraries[flot][download][url] = "http://flot.googlecode.com/files/flot-0.6.tar.gz"
 libraries[flot][directory_name] = "flot"
+
+libraries[phpmailer][download][type] = "get"
+libraries[phpmailer][download][url] = "http://kent.dl.sourceforge.net/project/phpmailer/phpmailer%20for%20php5_6/PHPMailer%20v5.1/PHPMailer_v5.1.tar.gz"
+libraries[phpmailer][directory_name] = "PHPMailer"
 
 ; Development
 projects[devel][subdir] = "development"
