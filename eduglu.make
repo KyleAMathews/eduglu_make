@@ -22,6 +22,9 @@ projects[backup_migrate][version] = "2.2"
 projects[better_formats][subdir] = "contrib"
 projects[better_formats][version] = "1.2"
 
+projects[captcha][subdir] = "contrib"
+projects[captcha][version] = "2.2"
+
 projects[cacherouter][subdir] = "contrib"
 projects[cacherouter][version] = "1.0-rc1"
 
@@ -130,6 +133,9 @@ projects[rules][version] = "1.2"
 projects[search404][subdir] = "contrib"
 projects[search404][version] = "1.9"
 
+projects[smartcrop][subdir] = "contrib"
+projects[smartcrop][[version] = "1.0-beta1"
+
 projects[spaces][subdir] = "contrib"
 projects[spaces][version] = "3.0"
 
@@ -138,6 +144,12 @@ projects[strongarm][version] = "2.0"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.14"
+
+projects[transliteration][subdir] = "contrib"
+projects[transliteration][version] = "3.0"
+
+projects[typogrify][subdir] = "contrib"
+projects[typogrify][version] = "1"
 
 projects[vertical_tabs][subdir] = "contrib"
 projects[vertical_tabs][version] = "1.0-rc1"
