@@ -85,11 +85,14 @@ projects[imagecache_profiles][version] = "1.3"
 projects[imagefield][subdir] = "contrib"
 projects[imagefield][version] = "3.7"
 
-projects[jquery_update][subdir] = "contrib"
-projects[jquery_update][version] = "2.0-alpha1"
+projects[job_scheduler][subdir] = "contrib"
+projects[job_scheduler][version] = "1.0-beta3"
 
 projects[jquery_ui][subdir] = "contrib"
 projects[jquery_ui][version] = "1"
+
+projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = "2.0-alpha1"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "1.0-alpha1"
