@@ -103,9 +103,6 @@ projects[link][version] = "2.9"
 projects[mailalias][subdir] = "contrib"
 projects[mailalias][version] = "1.0"
 
-projects[markdown][subdir] = "contrib"
-projects[markdown][version] = "1.2"
-
 projects[modr8][subdir] = "contrib"
 projects[modr8][version] = "1.3"
 
@@ -162,6 +159,9 @@ projects[views][version] = "2.11"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "1.9"
+
+projects[wysiwyg][subdir] = "contrib"
+projects[wysiwyg][version] = "6.x-2.x-dev"
 
 ; Patched
 projects[purl][subdir] = "contrib"
@@ -224,6 +224,10 @@ libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 libraries[flot][download][type] = "get"
 libraries[flot][download][url] = "http://flot.googlecode.com/files/flot-0.6.tar.gz"
 libraries[flot][directory_name] = "flot"
+
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4.1/ckeditor_3.4.1.tar.gz"
+libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[phpmailer][download][type] = "get"
 libraries[phpmailer][download][url] = "http://kent.dl.sourceforge.net/project/phpmailer/phpmailer%20for%20php5_6/PHPMailer%20v5.1/PHPMailer_v5.1.tar.gz"
