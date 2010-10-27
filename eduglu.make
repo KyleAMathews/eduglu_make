@@ -1,3 +1,5 @@
+api = 2
+
 ; Core
 core = 6.x
 projects[] = "drupal"
@@ -65,7 +67,7 @@ projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
 
 projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "1.0-beta7"
+projects[feeds][version] = "1.0-beta9"
 
 projects[filefield][subdir] = "contrib"
 projects[filefield][version] = "3.7"
@@ -74,7 +76,7 @@ projects[flot][subdir] = "contrib"
 projects[flot][version] = "1.2"
 
 projects[imageapi][subdir] = "contrib"
-projects[imageapi][version] = "1.8"
+projects[imageapi][version] = "1.9"
 
 projects[imagecache][subdir] = "contrib"
 projects[imagecache][version] = "2.0-beta10"
@@ -110,7 +112,7 @@ projects[og][subdir] = "contrib"
 projects[og][version] = "2.1"
 
 projects[og_mailinglist][subdir] = "contrib"
-projects[og_mailinglist][version] = "1.0-beta2"
+projects[og_mailinglist][version] = "1.0-beta3"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.4"
@@ -119,7 +121,7 @@ projects[querypath][subdir] = "contrib"
 projects[querypath][version] = "1.5"
 
 projects[quiz][subdir] = "contrib"
-projects[quiz][version] = "4.0-rc8"
+projects[quiz][version] = "4.0-rc9"
 
 projects[r4032login][subdir] = "contrib"
 projects[r4032login][version] = "1.2"
@@ -143,7 +145,7 @@ projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.14"
+projects[token][version] = "1.15"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0"
@@ -158,10 +160,10 @@ projects[views][subdir] = "contrib"
 projects[views][version] = "2.11"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "1.9"
+projects[views_bulk_operations][version] = "1.10"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "6.x-2.x-dev"
+projects[wysiwyg][version] = "2.x-dev"
 
 ; Patched
 projects[purl][subdir] = "contrib"
