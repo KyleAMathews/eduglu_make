@@ -233,7 +233,7 @@ libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[phpmailer][download][type] = "get"
 libraries[phpmailer][download][url] = "http://kent.dl.sourceforge.net/project/phpmailer/phpmailer%20for%20php5_6/PHPMailer%20v5.1/PHPMailer_v5.1.tar.gz"
-libraries[phpmailer][directory_name] = "PHPMailer"
+libraries[phpmailer][directory_name] = "phpmailer"
 
 ; Development
 projects[devel][subdir] = "development"
