@@ -72,6 +72,9 @@ projects[feeds][version] = "1.0-beta9"
 projects[filefield][subdir] = "contrib"
 projects[filefield][version] = "3.7"
 
+projects[filefield_sources][subdir] = "contrib"
+projects[filefield_sources][version] = "1.2"
+
 projects[flot][subdir] = "contrib"
 projects[flot][version] = "1.2"
 
@@ -86,6 +89,9 @@ projects[imagecache_profiles][version] = "1.3"
 
 projects[imagefield][subdir] = "contrib"
 projects[imagefield][version] = "3.7"
+
+projects[insert][subdir] = "contrib"
+projects[insert][version] = "1.0-beta6"
 
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "1.0-beta3"
