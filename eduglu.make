@@ -199,10 +199,6 @@ projects[eduglu_features][type] = "module"
 projects[eduglu_features][download][type] = "git"
 projects[eduglu_features][download][url] = "git://github.com/KyleAMathews/eduglu_features.git"
 
-projects[atrium_book][type] = "module"
-projects[atrium_book][download][type] = "git"
-projects[atrium_book][download][url] = "git://github.com/KyleAMathews/atrium_book.git"
-
 ; Themes
 projects[] = ninesixty
 
