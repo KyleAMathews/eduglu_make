@@ -184,11 +184,6 @@ projects[purl][version] = "1.0-beta13"
 projects[purl][patch][] = "http://drupal.org/files/issues/608916_20100423_2.patch"
 ; Issue: http://drupal.org/node/608916
 
-libraries[outline_designer_og][download][type] = "get"
-libraries[outline_designer_og][download][url] = "http://drupal.org/files/issues/outline_designer_og_1.zip"
-libraries[outline_designer_og][directory_name] = "outline_designer_og"
-libraries[outline_designer_og][destination] = "modules/contrib/outline_designer"
-
 ; Custom modules
 projects[custom][type] = "module"
 projects[custom][download][type] = "git"
