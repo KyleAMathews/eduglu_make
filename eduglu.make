@@ -49,7 +49,7 @@ projects[context][subdir] = "contrib"
 projects[context][version] = "3.0"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.7"
+projects[ctools][version] = "1.8"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.6"
@@ -67,7 +67,7 @@ projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
 
 projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "1.0-beta9"
+projects[feeds][version] = "1.0-beta10"
 
 projects[filefield][subdir] = "contrib"
 projects[filefield][version] = "3.7"
