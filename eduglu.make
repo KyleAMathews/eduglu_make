@@ -120,6 +120,12 @@ projects[og][version] = "2.1"
 projects[og_mailinglist][subdir] = "contrib"
 projects[og_mailinglist][version] = "1.0-beta3"
 
+projects[outline_designer][subdir] = contrib
+projects[outline_designer][type] = module
+projects[outline_designer][download][type] = cvs
+projects[outline_designer][download][module] = contributions/modules/outline_designer
+projects[outline_designer][download][date] = 2010-10-6
+
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.4"
 
@@ -177,12 +183,6 @@ projects[purl][type] = "module"
 projects[purl][version] = "1.0-beta13"
 projects[purl][patch][] = "http://drupal.org/files/issues/608916_20100423_2.patch"
 ; Issue: http://drupal.org/node/608916
-
-projects[outline_designer][subdir] = "contrib"
-projects[outline_designer][type] = "module"
-projects[outline_designer][version] = "1.1"
-projects[outline_designer][patch][] = "http://drupal.org/files/issues/outline_designer-869106.patch"
-; Issue: http://drupal.org/node/869106#comment-3348512
 
 libraries[outline_designer_og][download][type] = "get"
 libraries[outline_designer_og][download][url] = "http://drupal.org/files/issues/outline_designer_og_1.zip"
