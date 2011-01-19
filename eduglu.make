@@ -31,10 +31,10 @@ projects[cacherouter][subdir] = "contrib"
 projects[cacherouter][version] = "1.0-rc1"
 
 projects[cck][subdir] = "contrib"
-projects[cck][version] = "2.8"
+projects[cck][version] = "2.9"
 
 projects[chart][subdir] = "contrib"
-projects[chart][version] = "1.2"
+projects[chart][version] = "1.3"
 
 projects[codefilter][subdir] = "contrib"
 projects[codefilter][version] = "1.0"
@@ -52,7 +52,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.8"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.6"
+projects[date][version] = "2.7"
 
 projects[diff][version] = "contrib"
 projects[diff][version] = "2.1"
@@ -70,7 +70,7 @@ projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "1.0-beta10"
 
 projects[filefield][subdir] = "contrib"
-projects[filefield][version] = "3.7"
+projects[filefield][version] = "3.9"
 
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.2"
@@ -118,22 +118,16 @@ projects[og][subdir] = "contrib"
 projects[og][version] = "2.1"
 
 projects[og_mailinglist][subdir] = "contrib"
-projects[og_mailinglist][version] = "1.0-beta3"
+projects[og_mailinglist][version] = "1.0-beta4"
 
 projects[outline_designer][subdir] = contrib
-projects[outline_designer][type] = module
-projects[outline_designer][download][type] = cvs
-projects[outline_designer][download][module] = contributions/modules/outline_designer
-projects[outline_designer][download][date] = 2010-10-6
+projects[outline_designer][version] = "1.2"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.4"
 
-projects[querypath][subdir] = "contrib"
-projects[querypath][version] = "1.5"
-
 projects[quiz][subdir] = "contrib"
-projects[quiz][version] = "4.0-rc9"
+projects[quiz][version] = "4.0"
 
 projects[r4032login][subdir] = "contrib"
 projects[r4032login][version] = "1.2"
@@ -145,7 +139,7 @@ projects[rules][subdir] = "contrib"
 projects[rules][version] = "1.2"
 
 projects[search404][subdir] = "contrib"
-projects[search404][version] = "1.9"
+projects[search404][version] = "1.10"
 
 projects[smartcrop][subdir] = "contrib"
 projects[smartcrop][[version] = "1.0-beta1"
@@ -169,7 +163,7 @@ projects[vertical_tabs][subdir] = "contrib"
 projects[vertical_tabs][version] = "1.0-rc1"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "2.11"
+projects[views][version] = "2.12"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "1.10"
