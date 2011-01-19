@@ -75,6 +75,9 @@ projects[filefield][version] = "3.9"
 projects[filefield_sources][subdir] = "contrib"
 projects[filefield_sources][version] = "1.2"
 
+projects[flag][subdir] = "contrib"
+projects[flag][version] = "2.0-beta5"
+
 projects[flot][subdir] = "contrib"
 projects[flot][version] = "1.2"
 
