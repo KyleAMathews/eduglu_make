@@ -6,8 +6,8 @@ projects[] = "drupal"
 
 ; Contrib projects
 
-projects[admin][subdir] = "contrib"
-projects[admin][version] = "2.0"
+projects[admin_menu][subdir] = "contrib"
+projects[admin_menu][version] = "1.6"
 
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.2"
@@ -193,18 +193,11 @@ projects[eduglu_features][download][url] = "git://github.com/KyleAMathews/eduglu
 
 ; Themes
 projects[] = ninesixty
+projects[] = seven
 
 projects[dewey][type] = "theme"
 projects[dewey][download][type] = "git"
 projects[dewey][download][url] = "git://github.com/KyleAMathews/dewey.git"
-
-projects[rubik][type] = "theme"
-projects[rubik][download][type] = "git"
-projects[rubik][download][url] = "git://github.com/developmentseed/rubik.git"
-
-projects[tao][type] = "theme"
-projects[tao][download][type] = "git"
-projects[tao][download][url] = "git://github.com/developmentseed/tao.git"
 
 ; Eduglu install profile
 projects[eduglu_profile][type] = "profile"
