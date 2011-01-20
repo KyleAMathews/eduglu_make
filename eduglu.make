@@ -121,7 +121,7 @@ projects[og][subdir] = "contrib"
 projects[og][version] = "2.1"
 
 projects[og_mailinglist][subdir] = "contrib"
-projects[og_mailinglist][version] = "1.0-beta4"
+projects[og_mailinglist][version] = "1.0-beta5"
 
 projects[outline_designer][subdir] = contrib
 projects[outline_designer][version] = "1.2"
