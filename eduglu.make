@@ -192,6 +192,10 @@ projects[custom][type] = "module"
 projects[custom][download][type] = "git"
 projects[custom][download][url] = "git://github.com/KyleAMathews/eduglu_modules.git"
 
+projects[mixpanel][type] = "module"
+projects[mixpanel][download][type] = "git"
+projects[custom][download][url] = "git://github.com/KyleAMathews/Drupal-Mixpanel-Module.git"
+
 ; Features
 projects[eduglu_features][type] = "module"
 projects[eduglu_features][download][type] = "git"
