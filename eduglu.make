@@ -54,7 +54,7 @@ projects[ctools][version] = "1.8"
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.7"
 
-projects[diff][version] = "contrib"
+projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.1"
 
 projects[ed_readmore][subdir] = "contrib"
