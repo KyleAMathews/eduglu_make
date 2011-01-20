@@ -234,4 +234,4 @@ libraries[phpmailer][directory_name] = "phpmailer"
 
 ; Development
 projects[devel][subdir] = "development"
-projects[devel][version] = "1.22"
+projects[devel][version] = "1.23"
