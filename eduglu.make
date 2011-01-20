@@ -194,7 +194,7 @@ projects[custom][download][url] = "git://github.com/KyleAMathews/eduglu_modules.
 
 projects[mixpanel][type] = "module"
 projects[mixpanel][download][type] = "git"
-projects[custom][download][url] = "git://github.com/KyleAMathews/Drupal-Mixpanel-Module.git"
+projects[mixpanel][download][url] = "git://github.com/KyleAMathews/Drupal-Mixpanel-Module.git"
 
 ; Features
 projects[eduglu_features][type] = "module"
