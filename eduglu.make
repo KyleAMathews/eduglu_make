@@ -165,6 +165,9 @@ projects[transliteration][version] = "3.0"
 projects[typogrify][subdir] = "contrib"
 projects[typogrify][version] = "1"
 
+projects[unique_avatar][subdir] = "contrib"
+projects[unique_avatar][version] = "1.0-rc1"
+
 projects[vertical_tabs][subdir] = "contrib"
 projects[vertical_tabs][version] = "1.0-rc1"
 
