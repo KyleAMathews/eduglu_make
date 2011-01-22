@@ -182,9 +182,6 @@ projects[vertical_tabs][version] = "1.0-rc1"
 projects[views][subdir] = "contrib"
 projects[views][version] = "2.12"
 
-projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "1.10"
-
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.x-dev"
 
@@ -194,6 +191,11 @@ projects[purl][type] = "module"
 projects[purl][version] = "1.0-beta13"
 projects[purl][patch][] = "http://drupal.org/files/issues/608916_20100423_2.patch"
 ; Issue: http://drupal.org/node/608916
+
+projects[views_bulk_operations][subdir] = "contrib"
+projects[views_bulk_operations][version] = "1.10"
+projects[views_bulk_operations][patch][] = "http://drupal.org/files/issues/959040-purl.patch"
+; Issue http://drupal.org/node/959040
 
 ; Custom modules
 projects[custom][type] = "module"
