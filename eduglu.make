@@ -15,6 +15,11 @@ projects[advanced_help][version] = "1.2"
 projects[apachesolr][subdir] = "contrib"
 projects[apachesolr][version] = "1.2"
 
+libraries[SolrPhpClient][download][type] = "get"
+libraries[SolrPhpClient][download][url] = "http://solr-php-client.googlecode.com/files/SolrPhpClient.r22.2009-11-09.tgz"
+libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
+libraries[SolrPhpClient][destination] = "modules/contrib/apachesolr"
+
 projects[autoload][subdir] = "contrib"
 projects[autoload][version] = "1.4"
 
