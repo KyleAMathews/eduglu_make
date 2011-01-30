@@ -102,7 +102,7 @@ projects[imagefield][subdir] = "contrib"
 projects[imagefield][version] = "3.7"
 
 projects[insert][subdir] = "contrib"
-projects[insert][version] = "1.0-beta6"
+projects[insert][version] = "1.0"
 
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "1.0-beta3"
@@ -114,7 +114,7 @@ projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.0-alpha1"
 
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "1.0-alpha1"
+projects[libraries][version] = "1.0"
 
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
