@@ -152,9 +152,6 @@ projects[rules][version] = "1.2"
 projects[search404][subdir] = "contrib"
 projects[search404][version] = "1.10"
 
-projects[smartcrop][subdir] = "contrib"
-projects[smartcrop][[version] = "1.0-beta1"
-
 projects[spaces][subdir] = "contrib"
 projects[spaces][version] = "3.0"
 
