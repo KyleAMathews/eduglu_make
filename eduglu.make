@@ -24,10 +24,10 @@ libraries[SolrPhpClient][directory_name] = "SolrPhpClient"
 libraries[SolrPhpClient][destination] = "modules/contrib/apachesolr"
 
 projects[autoload][subdir] = "contrib"
-projects[autoload][version] = "1.4"
+projects[autoload][version] = "2.0"
 
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.2"
+projects[backup_migrate][version] = "2.4"
 
 projects[better_formats][subdir] = "contrib"
 projects[better_formats][version] = "1.2"
@@ -183,7 +183,7 @@ projects[views][subdir] = "contrib"
 projects[views][version] = "2.12"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.x-dev"
+projects[wysiwyg][version] = "2.3"
 
 ; Patched
 projects[purl][subdir] = "contrib"
