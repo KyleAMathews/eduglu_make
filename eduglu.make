@@ -26,9 +26,6 @@ libraries[SolrPhpClient][destination] = "modules/contrib/apachesolr"
 projects[autoload][subdir] = "contrib"
 projects[autoload][version] = "1.4"
 
-projects[avatarcrop][subdir] = "contrib"
-projects[avatarcrop][version] = "1.4"
-
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.2"
 
@@ -199,6 +196,11 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "1.10"
 projects[views_bulk_operations][patch][] = "http://drupal.org/files/issues/959040-purl.patch"
 ; Issue http://drupal.org/node/959040
+
+projects[avatarcrop][subdir] = "contrib"
+projects[avatarcrop][version] = "1.4"
+projects[avatarcrop][patch][] = "http://drupal.org/files/issues/avatar_upload_picture_link_fix.patch"
+; Issue http://drupal.org/node/857020#comment-4043610
 
 ; Custom modules
 projects[custom][type] = "module"
