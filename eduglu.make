@@ -26,6 +26,9 @@ libraries[SolrPhpClient][destination] = "modules/contrib/apachesolr"
 projects[autoload][subdir] = "contrib"
 projects[autoload][version] = "1.4"
 
+projects[avatarcrop][subdir] = "contrib"
+projects[avatarcrop][version] = "1.4"
+
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.2"
 
