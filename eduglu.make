@@ -215,7 +215,6 @@ projects[eduglu_features][download][type] = "git"
 projects[eduglu_features][download][url] = "git://github.com/KyleAMathews/eduglu_features.git"
 
 ; Themes
-projects[] = ninesixty
 projects[] = seven
 
 projects[dewey][type] = "theme"
