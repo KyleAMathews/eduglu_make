@@ -237,7 +237,7 @@ libraries[flot][download][url] = "http://flot.googlecode.com/files/flot-0.6.tar.
 libraries[flot][directory_name] = "flot"
 
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5/ckeditor_3.5.tar.gz"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.1/ckeditor_3.5.1.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[phpmailer][download][type] = "get"
