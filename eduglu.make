@@ -179,9 +179,6 @@ projects[vertical_tabs][version] = "1.0-rc1"
 projects[views][subdir] = "contrib"
 projects[views][version] = "2.12"
 
-projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.3"
-
 ; Patched
 projects[purl][subdir] = "contrib"
 projects[purl][type] = "module"
@@ -198,6 +195,11 @@ projects[avatarcrop][subdir] = "contrib"
 projects[avatarcrop][version] = "1.4"
 projects[avatarcrop][patch][] = "http://drupal.org/files/issues/avatar_upload_picture_link_fix.patch"
 ; Issue http://drupal.org/node/857020#comment-4043610
+
+projects[wysiwyg][subdir] = "contrib"
+projects[wysiwyg][version] = "2.3"
+projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg_boxes_quickfix_2.patch"
+; Issue http://drupal.org/node/716034#comment-3747202
 
 ; Custom modules
 projects[custom][type] = "module"
