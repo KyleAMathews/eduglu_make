@@ -32,6 +32,9 @@ projects[backup_migrate][version] = "2.4"
 projects[better_formats][subdir] = "contrib"
 projects[better_formats][version] = "1.2"
 
+projects[boxes][subdir] = "contrib"
+projects[boxes][version] = "1.0"
+
 projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "2.2"
 
